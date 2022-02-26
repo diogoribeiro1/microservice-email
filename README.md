@@ -5,6 +5,7 @@ Microservice para envio de email utilizando Spring Email e o servidor SMTP do Gm
     Java 11<br>
     Spring<br>
     Spring Email<br>
+    SMTP Gmail<br>
     JPA<br>
     Hibernate<br>
     H2 Database<br>
