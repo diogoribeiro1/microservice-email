@@ -10,19 +10,33 @@ Microservice para envio de email utilizando Spring Email e o servidor SMTP do Gm
     Hibernate<br>
     H2 Database<br>
     
-    # API Endpoints
+# API Endpoints:
 
-    |   Endpoints   |  Parameters  |    Verb    |
-    | :---         |     :---:      |          ---: |
-    | api/{coin}   | coin     | GET    |
-    | api/{coin)/search/{date}     | coin and date       | GET    |
+| Endpoint  | Method |
+| ------------- | ------------- |
+| /sending-email  | POST  |
 
     Request:
-        http://api-crypto-diogo.herokuapp.com/api/documentation#/Projects
-        
-    Response:
-        http://api-crypto-diogo.herokuapp.com/api/documentation#/Projects
+    {
+        "ownerRef": "",
+        "emailFrom": "",
+        "emailTo": "",
+        "subject": "",
+        "text": ""
+    }
     
-    Screenshots =
+    Response:
+    }
+        "emailId": "",
+        "emailRef": "",
+        "emailFrom": "",
+        "emailTo": "",
+        "subject": "",
+        "text": "",
+        "sendDateEmail": "",
+        "statusEmail": ""
+    }
+    
+# Screenshots:
     
 ![Captura de tela de 2022-02-26 19-10-33](https://user-images.githubusercontent.com/89152312/155860682-d2e1a41a-ed67-4edc-b77d-411682791286.png)
