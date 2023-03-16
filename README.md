@@ -16,7 +16,7 @@ Microservice para envio de email utilizando Spring Email e o servidor SMTP do Gm
 | ------------- | ------------- |
 | /sending-email  | POST  |
 
-    Request:
+    Example Request:
     {
         "ownerRef": "",
         "emailFrom": "",
@@ -25,7 +25,7 @@ Microservice para envio de email utilizando Spring Email e o servidor SMTP do Gm
         "text": ""
     }
     
-    Response:
+    Example Response:
     }
         "emailId": "",
         "emailRef": "",
